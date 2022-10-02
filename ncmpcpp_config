@@ -1,4 +1,6 @@
 #For set of bindings, there is another for that ~/.config/ncmpcpp/bindings
+# use the for the bindings, https://github.com/LukeSmithxyz/voidrice/blob/master/.config/ncmpcpp/bindings
+#This list for ncmpcpp is not exhausted, but these are probably necessary
 ncmpcpp_directory = ~/.config/ncmpcpp/
 mpd_host = localhost
 mpd_port = 6600
