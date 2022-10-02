@@ -1,4 +1,4 @@
-# To make ncmpcpp in working condition using mpd daemon, it could be nightmare and at some point you might give up! Here, are the  guidelines to make it working perfectly without any hustle.
+# To make ncmpcpp in working condition using mpd daemon, it could be nightmare and at some point you might give up! Here, are the  guidelines to make it working perfectly without any hassle.
 #Step by Step process -
 #======================================================================================================================================
 1. sudo pacman –S ncmpcpp mpd mpc
