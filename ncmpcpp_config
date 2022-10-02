@@ -1,0 +1,5 @@
+#For set of bindings, there is another for that ~/.config/ncmpcpp/bindings
+ncmpcpp_directory = ~/.config/ncmpcpp/
+mpd_host = localhost
+mpd_port = 6600
+mpd_music_dir = "/sdcard/Music/"
