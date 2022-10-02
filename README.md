@@ -14,4 +14,5 @@
 
 #Learn from this link- https://wiki.archlinux.org/title/ncmpcpp
 
-For Installing Instructions, follow the steps outlined in install file (attached with this repo)
+To make ncmpcpp in working condition using mpd daemon,  it could be nightmare and at some point you might give up! Here, are the guidelines to make it working perfectly without any hassle. For Installing Instructions, follow the steps outlined in install file (attached with this repo)
+
