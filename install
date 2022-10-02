@@ -5,7 +5,8 @@
 2. sudo pacman –S  --needed acpi alsa-utils pulseaudio pulseaudio-alsa
 3. After installation, copy the content of mpd.config file (attached with this repo) to the existing file @.config/mpd/mpd.conf; and make sure that there is no repeated commands
 4. copy the content of ncmpcpp_config file (attached with this repo) to the existing file @.config/ncmpcpp/config; and make sure that there is no repeated commands
-5. ncmpcpp
+5. mpc update
+6. ncmpcpp
 #======================================================================================================================================
 #One thing that sometimes you would be facing is that everything was okay before restarting the system and now ncmpcpp showing connection refused, that probably mpd daemon was not stopped/killed properly. Don’t worry either kill the mpd daemon using PID manually or boot the operating system.
 
@@ -13,7 +14,7 @@
 
 Special case for Android Phone:
 
-6. In this case you need to pipe/tunnel the sound from Android system to Proot Container where the Arch Linux system is installed. Just run the below command on termux before entering into Linux system or make a termux widget for the command
+7. In this case you need to pipe/tunnel the sound from Android system to Proot Container where the Arch Linux system is installed. Just run the below command on termux before entering into Linux system or make a termux widget for the command
 
 pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" --exit-idle-time=-1s
 #======================================================================================================================================
