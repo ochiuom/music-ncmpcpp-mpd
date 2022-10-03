@@ -14,9 +14,9 @@
 
 #Here, I used /sdcard/Music/ for my S21 phone where all the music files are stored locally. Make sure that music file location for ncmpcpp and mpd config file remain same. 
 
-Special case for Android Phone:
+#Special case for Android Phone:
 
-7. In this case you need to pipe/tunnel the sound from Android system to Proot Container where the Arch Linux system is installed. Just run the below command on termux
+#7. In this case you need to pipe/tunnel the sound from Android system to Proot Container where the Arch Linux system is installed. Just run the below command on termux
 before entering into Linux system or make a termux widget for the command
 
 pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" --exit-idle-time=-1s
